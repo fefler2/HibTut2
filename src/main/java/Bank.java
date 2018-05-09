@@ -13,13 +13,20 @@ public class Bank {
         this.id = id;
     }
 
-    @Id
-    @Column(name = "id")
-    @GeneratedValue(generator = "incrementator")
-    private int id;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     @Column(name = "name")
     private String name;
 
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(generator = "incrementator")
+    private int id;
 
 }
