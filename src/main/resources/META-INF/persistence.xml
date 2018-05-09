@@ -12,7 +12,7 @@
             <property name="hibernate.connection.autocommit" value="false"/>
 
             <!--nazwa i haslo-->
-            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.username" value="abc"/>
             <property name="hibernate.connection.password" value=""/>
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
