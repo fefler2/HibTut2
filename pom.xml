@@ -8,22 +8,41 @@
     <artifactId>artifact</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- JBoss repository for Hibernate -->
+    <repositories>
+        <repository>
+            <id>JBoss repository</id>
+            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+
     <dependencies>
 
-        <!-- https://mvnrepository.com/artifact/org.clojure/java.jdbc -->
-        <dependency>
-            <groupId>org.clojure</groupId>
-            <artifactId>java.jdbc</artifactId>
-            <version>0.7.6</version>
-        </dependency>
+        <!--&lt;!&ndash;&lt;!&ndash; https://mvnrepository.com/artifact/org.clojure/java.jdbc &ndash;&gt;&ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>org.clojure</groupId>-->
+        <!--<artifactId>java.jdbc</artifactId>-->
+        <!--<version>0.7.6</version>-->
+        <!--</dependency>-->
 
 
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/mysql/mysql-connector-java &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>mysql</groupId>-->
+        <!--<artifactId>mysql-connector-java</artifactId>-->
+        <!--<version>8.0.11</version>-->
+        <!--</dependency>-->
+
+
+
+        <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.11</version>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc14</artifactId>
+            <version>10.2.0.4.0</version>
         </dependency>
+
 
 
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -33,11 +52,11 @@
             <version>5.2.17.Final</version>
         </dependency>
 
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.3.0</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>javax.xml.bind</groupId>-->
+        <!--<artifactId>jaxb-api</artifactId>-->
+        <!--<version>2.3.0</version>-->
+        <!--</dependency>-->
 
 
 
